@@ -1,8 +1,11 @@
 n=int(input())
-max=0
+a=0
 while n>0:
     r=n%10
-    if max<r:
-        max=r
+    if r>a:
+        a=r
     n=n//10
-print(max)
+print(a)
+        
+        
+    
